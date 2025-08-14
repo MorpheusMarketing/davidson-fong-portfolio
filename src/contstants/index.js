@@ -1,43 +1,6 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, lo1calization, and product filtering for functionality improvements.",
-    ],
-    href: "",
-    logo: "",
-    image: "assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 1,
     title: "Travel Advisor",
     description: "A dynamic concierge app providing nearby restaurant and hotel suggestions.",
     subDescription: [
@@ -212,7 +175,7 @@ export const reviews = [
 
 export const skills = [
   // Languages
-  {name:"Java",icon:"assets/logos/java.png",},
+  {name:"Java",icon:"assets/logos/java.svg",},
   {name:"JavaScript",icon:"assets/logos/javascript.svg",},
   {name:"TypeScript",icon:"",},
   {name:"C#",icon:"assets/logos/csharp.svg",},
@@ -239,7 +202,7 @@ export const skills = [
   {name:"Docker",icon:"",},
   {name:"Microsoft SQL Server",icon:"assets/logos/microsoftsqlserver.svg",},
   {name:"VS Code",icon:"assets/logos/visualstudiocode.svg",},
-  {name:"MongoDb",icon:"assets/logos/mongodb.svg",},
+  {name:"MongoDb",icon:"assets/logos/mongo-db.svg",},
   {name:"Stripe",icon:"assets/logos/stripe.svg",},
 ]
 

@@ -19,9 +19,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Skills />
       {myProjects.length > 0 && <Projects />}
       <Experiences />
-      <Skills />
       {/* <Testimonial /> */}
       <Contact />
       <Footer />
