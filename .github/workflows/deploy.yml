@@ -37,7 +37,7 @@ jobs:
       #     echo "My Email = ${{ secrets.VITE_MY_EMAIL }}"
 
       # Build project (with env variables available)
-      - name: Build Project
+      - name: Build ProjectListItem
         run: npm run build
         env:
           VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}

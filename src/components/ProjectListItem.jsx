@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
 import Divider from "./Divider";
 
-const Project = ({
+const ProjectListItem = ({
   title,
   description,
   subDescription,
@@ -32,7 +32,7 @@ const Project = ({
           className="flex items-center gap-1 cursor-pointer hover-animation"
         >
           Read More
-          <img src="/assets/arrow-right.svg" className="w-5"  alt="Read More"/>
+          <img src="assets/arrow-right.svg" className="w-5"  alt="Read More"/>
         </button>
       </div>
       <Divider />
@@ -51,4 +51,4 @@ const Project = ({
   );
 };
 
-export default Project;
+export default ProjectListItem;
