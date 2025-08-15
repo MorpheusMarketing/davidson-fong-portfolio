@@ -55,10 +55,10 @@ export const myProjects = [
   {
     id: 4,
     title: "Muse 2.0",
-    description: "A scalable microservices platform for nightlife and local culture.",
+    description: "A scalable microservices platform for the creative community and local culture.",
     subDescription: [
       "Built as a community-powered platform with AWS, Next.js, Kafka, and 15 microservices.",
-      "Muse connects local talent with venues, brands, and audiences through media, booking, and automation, revolutionizing nightlife management at scale."
+      "Muse connects local talent with venues, brands, and audiences through media, booking, and automation, revolutionizing creative markets at scale."
     ],
     href: "",
     logo: "",
@@ -69,7 +69,31 @@ export const myProjects = [
       { id: 3, name: "Kafka", path: "assets/logos/kafka.svg"},
       { id: 4, name: "PostgreSQL", path: "assets/logos/postgresql.svg" }
     ]
+  },
+  {
+    id: 5,
+    title: "CSV Generation Pipeline",
+    description: "Dockerized suite of programs for automated daily CSV generation and banking core data mapping.",
+    subDescription: [
+      "Developed at REV Federal Credit Union as a full-stack developer.",
+      "Built five Java programs to generate massive CSV files for Customers, Deposit Accounts, Loans, Collateral, and Relationship mappings.",
+      "Integrated with MS SQL for data retrieval and transformation.",
+      "Dockerized and automated daily execution with n8n workflows.",
+      "Provided data exports to vendors for processing, mapping various parts of the banking core.",
+      "Wrote full documentation and contributed the project end-to-end."
+    ],
+    href: "",
+    logo: "",
+    image: "assets/projects/rev-csv-pipeline.png",
+    tags: [
+      { id: 1, name: "Java", path: "assets/logos/java.svg" },
+      { id: 2, name: "MS SQL", path: "assets/logos/mssql.svg" },
+      { id: 3, name: "Jira", path: "assets/logos/jira.svg" },
+      { id: 4, name: "Docker", path: "assets/logos/docker.svg" },
+      { id: 5, name: "n8n", path: "assets/logos/n8n.png" }
+    ]
   }
+
 
 ];
 
@@ -122,6 +146,7 @@ export const experiences = [
     ],
   },
 ];
+
 export const reviews = [
   {
     name: "Jack",
@@ -199,9 +224,9 @@ export const skills = [
   {name:"SSMS",icon:"",},
   {name:"Azure",icon:"assets/logos/azure.svg",},
   {name:"GitHub",icon:"assets/logos/github.svg",},
-  {name:"Docker",icon:"",},
-  {name:"Microsoft SQL Server",icon:"assets/logos/microsoftsqlserver.svg",},
-  {name:"VS Code",icon:"assets/logos/visualstudiocode.svg",},
+  {name:"Docker",icon:"assets/logos/docker.svg",},
+  {name:"Microsoft SQL Server",icon:"assets/logos/mssql.svg",},
+  {name:"VS Code",icon:"assets/logos/vscode.svg",},
   {name:"MongoDb",icon:"assets/logos/mongo-db.svg",},
   {name:"Stripe",icon:"assets/logos/stripe.svg",},
 ]
